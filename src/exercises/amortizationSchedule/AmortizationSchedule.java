@@ -36,7 +36,8 @@ import exercises.util.InputOutputUtils;
 
 /**
  * 
- *  The <code>AmortizationSchedule</code>  is an amortization schedule program using Java.
+ *  The <code>AmortizationSchedule</code>  
+ *  is an amortization schedule program using Java.
  *  This is one of the strategy that has been developed to calculate the Amortization schedule.
  *  
  */

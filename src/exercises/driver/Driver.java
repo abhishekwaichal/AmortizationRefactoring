@@ -11,6 +11,9 @@ import exercises.util.InputOutputUtils;
 
 /**
  * @author Abhishek
+ * Contains the main class.
+ * 		- Accepts user inputs and instantiates the required class.
+ * 	 	- Invokes the strategy method to calculate and compute the Amortization Schedule. 
  *
  */
 public class Driver {
