@@ -12,6 +12,10 @@ import java.util.IllegalFormatException;
 
 /**
  * @author Abhishek
+ * 
+ * Used for: 
+ * 		- Printing formated strings to console.
+ * 		- Reading input obtained from console.
  *
  */
 public class InputOutputUtils {
