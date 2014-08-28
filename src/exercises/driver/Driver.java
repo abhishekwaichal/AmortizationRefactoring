@@ -11,6 +11,7 @@ import exercises.util.InputOutputUtils;
 
 /**
  * @author Abhishek
+ * 
  * Contains the main class.
  * 		- Accepts user inputs and instantiates the required class.
  * 	 	- Invokes the strategy method to calculate and compute the Amortization Schedule. 
@@ -18,7 +19,13 @@ import exercises.util.InputOutputUtils;
  */
 public class Driver {
 
-	
+	/**
+	 *	Main Method 
+	 *	
+	 *	@param args
+	 *		Contains Command line parameters
+	 *
+	 */
 	public static void main(String[] args) {
 		
 		String[] userPrompts = {

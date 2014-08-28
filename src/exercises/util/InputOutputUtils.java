@@ -37,6 +37,14 @@ public class InputOutputUtils {
 	}
 
 	
+	/**
+	 * @param formatString
+	 * 		String to be printed is formatted using this parameter 
+	 * @param args
+	 * 		Parameters to be output 
+	 * 
+	 *  Used to print given parameters in the given format.
+	 */
 	public static void printf(String formatString, Object... args) {
 		try {
 			if (getConsole() != null) {
@@ -49,12 +57,23 @@ public class InputOutputUtils {
 		}
 	}
 
-	
+	/**
+	 * @param String
+	 * 		String to be printed  
+	 * 
+	 *  Used to print given string.
+	 */
 	public static void print(String s) {
 		printf("%s", s);
 	}
 
-	
+	/**
+	 * @param userPrompt
+	 * 		Read the data from this string 
+	 * 
+	 *  Used to read the data input by user at console. 
+	 */
+
 	public static String readLine(String userPrompt) throws IOException {
 		
 		String line = "";

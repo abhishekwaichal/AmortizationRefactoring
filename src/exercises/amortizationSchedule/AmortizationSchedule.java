@@ -122,8 +122,9 @@ public class AmortizationSchedule implements AmortizationStrategy{
 	}
 
 	/**
-	 * @return the string representation of this instance
 	 * Can be used for debuging purpose.
+	 * @return the string representation of this instance
+	 * 
 	 */
 	@Override
 	public String toString() {
@@ -142,7 +143,8 @@ public class AmortizationSchedule implements AmortizationStrategy{
 	}
 
 	/**
-	 * @param amountBorrowed the amountBorrowed to set
+	 * @param amountBorrowed 
+	 * 			The amountBorrowed to set
 	 */
 	public void setAmountBorrowed(long amountBorrowed) {
 		this.amountBorrowed = amountBorrowed;
@@ -156,7 +158,8 @@ public class AmortizationSchedule implements AmortizationStrategy{
 	}
 
 	/**
-	 * @param apr the apr to set
+	 * @param apr 
+	 * 		The apr to set
 	 */
 	public void setApr(double apr) {
 		this.apr = apr;
@@ -170,7 +173,8 @@ public class AmortizationSchedule implements AmortizationStrategy{
 	}
 
 	/**
-	 * @param initialTermMonths the initialTermMonths to set
+	 * @param initialTermMonths 
+	 * 		The initialTermMonths to set
 	 */
 	public void setInitialTermMonths(int initialTermMonths) {
 		this.initialTermMonths = initialTermMonths;
@@ -184,7 +188,8 @@ public class AmortizationSchedule implements AmortizationStrategy{
 	}
 
 	/**
-	 * @param monthlyInterest the monthlyInterest to set
+	 * @param monthlyInterest 
+	 * 		The monthlyInterest to set
 	 */
 	public void setMonthlyInterest(double monthlyInterest) {
 		this.monthlyInterest = monthlyInterest;
@@ -198,7 +203,8 @@ public class AmortizationSchedule implements AmortizationStrategy{
 	}
 
 	/**
-	 * @param monthlyPaymentAmount the monthlyPaymentAmount to set
+	 * @param monthlyPaymentAmount 
+	 * 		The monthlyPaymentAmount to set
 	 */
 	public void setMonthlyPaymentAmount(long monthlyPaymentAmount) {
 		this.monthlyPaymentAmount = monthlyPaymentAmount;
